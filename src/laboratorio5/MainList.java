@@ -11,9 +11,11 @@ public class MainList {
 		slistArray.insert(5);
 		slistArray.insert(8);
 		
-		PrinterList  printer = new PrinterList();
-		printer.show(slistArray);
+	//	PrinterList  printer = new PrinterList();
+	//	printer.show(slistArray);
 		
+		PrinterListXML print = new PrinterListXML();
+		print.print(slistArray);
 		
 		
 		
