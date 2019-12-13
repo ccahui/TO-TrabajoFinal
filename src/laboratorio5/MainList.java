@@ -11,14 +11,18 @@ public class MainList {
 		slistArray.insert(5);
 		slistArray.insert(8);
 		
-	//	PrinterList  printer = new PrinterList();
-	//	printer.show(slistArray);
 		
-		PrinterListXML print = new PrinterListXML();
-		print.print(slistArray);
+		Printer print = new PrinterList(slistArray);
+		System.out.println("----XML----");
+		print.formatoXML();
 		
+		System.out.println("----JSON----");
+		print.formatoJSON();
 		
-		
-		
+		System.out.println("----HTML----");
+		print.formatoHTML();
+	
 	}
+
+
 }

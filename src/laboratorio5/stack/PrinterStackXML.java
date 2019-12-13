@@ -23,8 +23,5 @@ public class PrinterStackXML {
 		System.out.println("\t\t<item>"+item+"</item>");		
 	}
 	
-	private void printConEtiqueta(String etiqueta, String contenido) {
-		System.out.println("<"+etiqueta+">"+contenido+"</"+etiqueta+">");
-	}
 	
 }
