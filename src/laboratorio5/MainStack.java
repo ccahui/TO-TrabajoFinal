@@ -1,7 +1,5 @@
 package laboratorio5;
 
-import laboratorio5.list.IList;
-import laboratorio5.list.SListArray;
 import laboratorio5.stack.*;
 
 public class MainStack {
@@ -16,13 +14,13 @@ public class MainStack {
 		
 		Printer print = new PrinterStack(stack);
 		System.out.println("----XML----");
-		print.formatoXML();
+		print.printXML();
 		
 		System.out.println("----JSON----");
-		print.formatoJSON();
+		print.printJSON();
 		
 		System.out.println("----HTML----");
-		print.formatoHTML();
+		print.printHTML();
 
 	}
 }

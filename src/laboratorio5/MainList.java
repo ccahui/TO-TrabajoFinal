@@ -14,13 +14,13 @@ public class MainList {
 		
 		Printer print = new PrinterList(slistArray);
 		System.out.println("----XML----");
-		print.formatoXML();
+		print.printXML();
 		
 		System.out.println("----JSON----");
-		print.formatoJSON();
+		print.printJSON();
 		
 		System.out.println("----HTML----");
-		print.formatoHTML();
+		print.printHTML();
 	
 	}
 
