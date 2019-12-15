@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="laboratorio8.ListJSONPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/ListJSONPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="197" x="449" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="laboratorio8.ListXMLPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/ListXMLPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="233" x="686" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="laboratorio8.ListFormatPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/ListFormatPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="186" x="686" y="180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="laboratorio8.StackHTMLPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/StackHTMLPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="233" x="1232" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="laboratorio8.StackJSONPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/StackJSONPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="197" x="1505" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="laboratorio8.ListHTMLPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/ListHTMLPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="233" x="959" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="laboratorio8.StackFormatPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/StackFormatPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="186" x="1505" y="180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="laboratorio8.StackXMLPrinter" project="TO-TrabajoFinal" 
+    file="/TO-TrabajoFinal/src/laboratorio8/StackXMLPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="187" width="233" x="1742" y="-47"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
