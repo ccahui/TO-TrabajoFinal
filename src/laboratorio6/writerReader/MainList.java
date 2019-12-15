@@ -20,5 +20,8 @@ public class MainList {
 		write.formatoXML();
 		write.formatoJSON();
 		write.formatoHTML();
+		
+		ReaderList reader = new ReaderList("lista.html");
+		reader.read();
 	}
 }

@@ -19,5 +19,8 @@ public static void main(String[] args) {
 		write.formatoXML();
 		write.formatoJSON();
 		write.formatoHTML();
+		
+		ReaderStack reader = new ReaderStack("stack.html");
+		reader.read();
 	}
 }
